@@ -3,42 +3,32 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: "Segoe UI", Arial, sans-serif;
   line-height: 1.7;
   color: #2d3436;
   background: #f1f5f9;
 }
-
-
 .hero {
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: #fff;
   text-align: center;
   padding: 90px 20px;
 }
-
-
-
 .hero h1 {
   font-size: 2.6rem;
 }
-
 .hero h1 span {
   color: #ffeaa7;
 }
-
 .tagline {
   font-size: 1.2rem;
   margin-top: 8px;
   opacity: 0.9;
 }
-
 .hero button {
   margin-top: 25px;
   padding: 12px 30px;
@@ -50,14 +40,11 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-
 #greetMsg {
   margin-top: 18px;
   font-weight: 600;
   min-height: 28px;
 }
-
-/* Sections */
 .section {
   max-width: 800px;
   margin: 30px auto;
@@ -66,7 +53,6 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
-
 .section h2 {
   margin-bottom: 15px;
   color: #764ba2;
@@ -74,15 +60,12 @@ body {
   display: inline-block;
   padding-bottom: 4px;
 }
-
-/* Cards */
 .cards {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 10px;
 }
-
 .card {
   flex: 1 1 150px;
   padding: 18px;
@@ -91,17 +74,14 @@ body {
   text-align: center;
   font-weight: 600;
 }
-
 .card h3 {
   color: #764ba2;
   margin-bottom: 5px;
 }
-
 .card p {
   font-weight: normal;
   font-size: 0.95rem;
 }
-
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
